@@ -1,0 +1,29 @@
+{
+  "name": "nodereaper",
+  "version": "1.0.0",
+  "description": "extract a site and publisj it in md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel -d app/ src",
+    "run": "nodemon --exec ./node_modules/.bin/babel-node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "image-to-base64": "^2.0.1",
+    "install": "^0.13.0",
+    "jsdom": "^15.1.1",
+    "jssoup": "0.0.10",
+    "lowdb": "^1.0.0",
+    "npm": "^6.11.3",
+    "rimraf": "^3.0.0",
+    "showdown": "^1.9.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-await": "^1.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}

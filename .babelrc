@@ -1,0 +1,11 @@
+{
+    "presets": [
+        "es2015"
+       /*["env", { "exclude": ["transform-async-to-generator", "transform-regenerator"] }]*/ 
+    ],
+    "sourceMaps": "inline",
+    "retainLines": true,
+    "plugins": [
+        "syntax-async-functions"
+    ]
+}
