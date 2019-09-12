@@ -1,0 +1,5 @@
+root: ./tutorialMD/
+
+structure:
+  summary: SUMMARY.md
+  readme: 01 Kubernetes Tutorial.md
